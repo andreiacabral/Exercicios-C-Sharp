@@ -11,7 +11,6 @@ namespace ExercicioTriangulo
         public double A { get; set; }
         public double B { get; set; }
         public double C { get; set; }
-
         public double Perimetro { get; set; }
         public double Area { get; set; }
 
