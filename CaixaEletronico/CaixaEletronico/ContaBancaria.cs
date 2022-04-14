@@ -33,7 +33,7 @@ namespace CaixaEletronico
 
         public override string ToString()
         {
-            return "Conta" 
+            return "Conta: " 
                 + Numero 
                 + " , Titular: "
                 + Titular
