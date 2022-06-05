@@ -8,7 +8,7 @@ namespace tabuleiro
 {
     public enum Cor
     {
-        anca,
+        Branca,
         Preta,
         Amarela,
         Azul,
