@@ -21,8 +21,6 @@ namespace Xadrez_Console.xadrez
             return new Posicao(8- linha, coluna -'a');
         }
 
-
-
         public override string ToString()
         {
             return "" + coluna + linha;

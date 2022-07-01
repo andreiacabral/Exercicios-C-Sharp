@@ -37,11 +37,16 @@ namespace Xadrez_Console // Note: actual namespace depends on the project name.
                     catch (TabuleiroException e)
                     {
                         Console.WriteLine(e.Message);
-                        Console.ReadLine(); 
+                        Console.ReadLine();
                     }
                 }
+                Console.Clear();
+                Tela.imprimirPartida(partida);
+
 
             }
+
+
             catch (TabuleiroException e)
             {
                 Console.WriteLine(e.Message);
