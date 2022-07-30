@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SalesWebMvc.Models.ViewModels;
+using SalesWebMvc.Models;
 using System.Diagnostics;
 
 namespace SalesWebMvc.Controllers
