@@ -13,15 +13,9 @@ namespace SalesWebMvc.Data
             : base(options)
         {
         }
+
         public DbSet<Department> Department { get; set; }
-
-        internal List<Seller> ToList()
-        {
-            throw new NotImplementedException();
-        }
-
         public DbSet<Seller> Seller { get; set; }
         public DbSet<SalesRecord> SalesRecords { get; set; }
-        public object SalesRecord { get; internal set; }
     }
 }
